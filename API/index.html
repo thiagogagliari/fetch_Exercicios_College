@@ -7,20 +7,26 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Busca por Endereço</h1>
+    <h1>correios</h1>
     <main>
       <div class="container">
-        <label for="busca-cep">Qual o CEP desejado:</label>
-        <input type="search" id="search" name="busca" maxlength="8" />
+        <label for="busca-cep">BUSCA CEP</label>
+        <input
+          type="search"
+          id="search"
+          name="busca"
+          maxlength="8"
+          placeholder="Digite seu CEP"
+        />
         <button onclick="fetchData()">Pesquisar</button>
-      </div>
 
-      <div class="resultado">
-        <p id="erro"></p>
-        <p id="rua"></p>
-        <p id="bairro"></p>
-        <p id="cidade"></p>
-        <p id="estado"></p>
+        <div class="resultado">
+          <p id="erro"></p>
+          <p id="rua"></p>
+          <p id="bairro"></p>
+          <p id="cidade"></p>
+          <p id="estado"></p>
+        </div>
       </div>
     </main>
 

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -5,7 +7,8 @@
 }
 
 body{
-  background-color: #cccc;
+  background-color: #ccc;
+  font-family: "Roboto", sans-serif;
   text-align: center;
 }
 
@@ -30,9 +33,24 @@ label{
 }
 
 input{
-  width: 200px;
-  height: 20px;
+  padding: 5px;
+  width: 300px;
+  height: 30px;
+  text-align: center;
   border-radius: 5px;
+  border: 1px solid #0000ff;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+button{
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #0000ff;
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
 }
 
 #erro{
@@ -41,11 +59,18 @@ input{
   font-size: 20px;
   margin-top: 10px;
 }	
-
-.resultado > p{
-  color: blue;
-  font-size: 20px;
+.resultado{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   margin-top: 20px;
-  margin-bottom: 20px;
+}
+.resultado > p{
+  width: 100%;
+  color: blue;
+  font-style: italic;
+  font-size: 20px;
+  margin-top: 5px;
   text-align: left;
 }
