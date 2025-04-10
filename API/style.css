@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #cccc;
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1{
+  margin: 20px;
+  font-size: 50px;
+}
+
+main{
+  margin: 200px auto;
+}
+
+label{
+  font-size: 30px;
+}
+
+input{
+  width: 200px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+#erro{
+  text-align: left;
+  color: red;
+  font-size: 20px;
+  margin-top: 10px;
+}	
+
+.resultado > p{
+  color: blue;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}

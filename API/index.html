@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Busca por CEP</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Busca por Endereço</h1>
+    <main>
+      <div class="container">
+        <label for="busca-cep">Qual o CEP desejado:</label>
+        <input type="search" id="search" name="busca" maxlength="8" />
+        <button onclick="fetchData()">Pesquisar</button>
+      </div>
+
+      <div class="resultado">
+        <p id="erro"></p>
+        <p id="rua"></p>
+        <p id="bairro"></p>
+        <p id="cidade"></p>
+        <p id="estado"></p>
+      </div>
+    </main>
+
+    <script src="fetch.js"></script>
+  </body>
+</html>
